@@ -15,9 +15,11 @@ class SieveTest extends \PHPUnit_Framework_TestCase
         return [
             [2, true],
             [3, true],
-            [4, false],
+
             [5, true],
             [6, false],
+
+            [109, true],
         ];
     }
 }
