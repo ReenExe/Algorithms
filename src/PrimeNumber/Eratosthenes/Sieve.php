@@ -1,11 +1,11 @@
 <?php
 
-namespace ReenExe\EasyNumber\Eratosthenes;
+namespace ReenExe\PrimeNumber\Eratosthenes;
 
 /**
  * Решето Ератосфена
  */
-abstract class Sieve implements \ReenExe\EasyNumber\Sieve
+abstract class Sieve implements \ReenExe\PrimeNumber\Sieve
 {
     protected static function calculate($number, $sequence, $false)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ReenExe\EasyNumber\Eratosthenes;
+namespace ReenExe\PrimeNumber\Eratosthenes;
 
 class ArraySieve extends Sieve
 {

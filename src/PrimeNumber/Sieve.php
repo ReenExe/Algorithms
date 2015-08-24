@@ -1,6 +1,6 @@
 <?php
 
-namespace ReenExe\EasyNumber;
+namespace ReenExe\PrimeNumber;
 
 interface Sieve
 {
