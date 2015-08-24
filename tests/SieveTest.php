@@ -7,7 +7,8 @@ class SieveTest extends \PHPUnit_Framework_TestCase
      */
     public function test($number, $expect)
     {
-        $this->assertTrue(\ReenExe\EasyNumber\Sieve::is($number) === $expect);
+        $this->assertTrue(\ReenExe\EasyNumber\Eratosthenes\ArraySieve::is($number) === $expect);
+        $this->assertTrue(\ReenExe\EasyNumber\Eratosthenes\StringSieve::is($number) === $expect);
     }
 
     public function dataProvider()
