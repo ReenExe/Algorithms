@@ -2,9 +2,6 @@
 
 namespace ReenExe\EasyNumber;
 
-/**
- * Решето Ератосфена
- */
 interface Sieve
 {
     /**
