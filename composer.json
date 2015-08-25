@@ -6,5 +6,8 @@
         "psr-4": {
             "ReenExe\\": "src"
         }
+    },
+    "require": {
+        "lavoiesl/php-benchmark": "~1.4"
     }
 }
