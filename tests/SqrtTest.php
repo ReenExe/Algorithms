@@ -2,8 +2,20 @@
 
 class SqrtTest extends \PHPUnit_Framework_TestCase
 {
-    public function test()
+    /**
+     * @dataProvider dataProvider
+     * @param $source
+     * @param $expected
+     */
+    public function test($source, $expected)
     {
-        // TODO
+        $this->assertTrue(\ReenExe\Sqrt::find($source) === $expected);
+    }
+
+    public function dataProvider()
+    {
+        return [
+            [4, 2]
+        ];
     }
 }
